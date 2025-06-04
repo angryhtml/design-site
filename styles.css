@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+body, button, input {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-size: 1.1rem;
+}
+
+body h1, body h2, body p {
+    color: black;
+}
+
+.navbar {
+    box-shadow: 0 4px 12px rgba(46, 71, 224, 0.2);
+    z-index: 1000;
+}
+
+.start-course, .form-submit{
+    height: 1.875rem ;
+    background-color: rgba(46, 71, 224, 1) !important; 
+}
+
+#main-page {
+    padding-top: 5.5rem;
+
+}
+
+#main-page h1 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: black;
+}
+
+#main-page p {
+    padding-top: 1rem;
+}
+
+#main-page img {
+    height: 23rem;
+}
+
+#for-whom {
+    padding-top: 5.5rem;
+}
+
+#for-whom .column{
+    background-color: rgba(92, 214, 200, 0.52);
+    padding: 1.6rem 1.6rem;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+#for-whom h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(46, 71, 224, 1);
+}
+
+#course-program {
+    padding-top: 5.5rem;
+}
+
+#course-program h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#course-program img {
+    height: 23rem;
+}
+
+#reviews {
+    padding-top: 5.5rem;
+}
+
+#reviews h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(46, 71, 224, 1);
+}
+
+#reviews p {
+    font-size: 0.9rem;
+}
+
+#reviews .column {
+    margin-left: 0;
+    background-color: rgba(236, 236, 255, 1);
+    border:1px solid rgba(46, 71, 224, 0.3);
+    padding: 1rem 1rem;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#reviews img {
+    border-radius: 50%;
+    width: 7rem;
+    margin-bottom: 1rem;
+}
+
+.question-box {
+    margin-top: 5.5rem;
+    background-color: rgba(236, 236, 255, 1);
+}
+
