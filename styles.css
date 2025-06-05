@@ -1,3 +1,8 @@
+html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }s
+
 body {
     margin: 0;
     padding: 0;
@@ -212,9 +217,14 @@ footer {
         hyphens: none;
         line-height: 1.6;
     }
+
+    #course-program img {
+        display: none;
+    }
 }
 @media (max-width: 1024px) {
      /* планшеты */ 
+
 }
 
 @media (min-width: 1025px) { 
