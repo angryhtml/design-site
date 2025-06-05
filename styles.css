@@ -148,3 +148,54 @@ footer {
     box-shadow: inset 0 6px 10px rgba(0, 0, 0, 0.15);
     padding: 1rem 0;
   }
+
+@media (max-width: 768px) { 
+    
+    nav img{
+        width: 5rem;
+    }
+    body, button, input {
+        font-size: 0.9rem;
+    }
+    h2 {
+        font-size: 1.2rem !important;
+    }
+    #main-page h1  {
+        font-size: 1.2rem;
+        margin-bottom: 0rem;
+    }
+    .main-page .columns {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-page .column.pl-6 {
+        text-align: center;
+        padding-left: 0 !important; /* убираем отступ слева */
+    }
+    
+    .main-page .start-course {
+        margin: 0 auto; /* кнопка по центру */
+    }
+    
+    .main-page .column {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .for-whom {
+        margin: 0 auto;
+        padding: 0 40px;
+        text-align: center;
+    }
+    
+      .for-whom p {
+        margin-bottom: 0.4rem;
+    }
+}
+@media (max-width: 1024px) {
+     /* планшеты */ 
+}
+
+@media (min-width: 1025px) { 
+    /* десктоп */ 
+}
