@@ -152,7 +152,7 @@ footer {
 @media (max-width: 768px) { 
     
     nav img{
-        width: 5rem;
+        width: 6rem;
     }
     body, button, input {
         font-size: 0.9rem;
@@ -160,9 +160,23 @@ footer {
     h2 {
         font-size: 1.2rem !important;
     }
+    #main-page img {
+        width: 18rem;
+        height: auto;
+        position: center;
+    }
     #main-page h1  {
         font-size: 1.2rem;
         margin-bottom: 0rem;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        hyphens: none;
+    }
+
+    .main-page p {
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        hyphens: none;
     }
     .main-page .columns {
         display: flex;
@@ -187,9 +201,16 @@ footer {
         padding: 0 40px;
         text-align: center;
     }
-    
-      .for-whom p {
+    .for-whom h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .for-whom p {
         margin-bottom: 0.4rem;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        hyphens: none;
+        line-height: 1.6;
     }
 }
 @media (max-width: 1024px) {
