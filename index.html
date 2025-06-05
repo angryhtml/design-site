@@ -139,61 +139,77 @@
         </div>
     </section>
 
-    <section class="question-box">
-        <div class="container">
-            <div class="columns is-centered">
-                <div class="column is-6">
-                    <h2>ОСТАЛИСЬ ВОПРОСЫ?</h2>
-                    <p>Оставьте свои контактные данные ниже, 
-                        и мы обязательно свяжемся с вами!</p>
+    <section class="question-box section">
+      <div class="container">
+        <div class="columns is-vcentered is-centered">
+
+          <div class="column is-5 ">
+            <h2 class="title is-4 mb-3">ОСТАЛИСЬ ВОПРОСЫ?</h2>
+            <p>Оставьте свои контактные данные ниже,<br>
+              и мы обязательно свяжемся с вами!
+            </p>
+          </div>
+    
+          <div class="column is-5">
+            <form>
+              <div class="field">
+                <label class="label" for="name">Имя:</label>
+                <div class="control">
+                  <input class="input" type="text" id="name" name="name" placeholder="Введите ваше имя">
                 </div>
-                <div class="column box is-6">
-                    <form>
-                        <label for="name">Имя:</label><br><br>
-                        <input class="input" type="text" id="name" name="name" placeholder="Введите ваше имя"><br><br>
-                        <label for="ph-number">Номер телефона:</label><br><br>
-                        <input class="input" type="tel" id="phone-number" name="phone-number" placeholder="Введите ваш номер телефона"><br><br>
-                        <label class="checkbox">
-                            <input class="checkboxbtn" type="checkbox" name="politics" value="true" />
-                            Согласен с <a href="#">политикой конфидециальности</a>
-                          </label><br><br>
-                        <button class="form-submit button is-link is-rounded" type="button" disabled>Отправить</button>
-                    </form>
+              </div>
+    
+              <div class="field">
+                <label class="label" for="phone-number">Номер телефона:</label>
+                <div class="control">
+                  <input class="input" type="tel" id="phone-number" name="phone-number" placeholder="Введите ваш номер телефона">
                 </div>
-            </div>
+              </div>
+    
+              <div class="field mt-4">
+                <label class="checkbox">
+                  <input class="checkboxbtn" type="checkbox" name="politics" value="true" />
+                  Согласен с <a href="#">политикой конфиденциальности</a>
+                </label>
+              </div>
+    
+              <div class="field mt-4">
+                <button class="form-submit button is-link is-rounded" type="button" disabled>Отправить</button>
+              </div>
+            </form>
+          </div>
         </div>
-        
+      </div>
     </section>
 
-    <footer class="footer">
-        <div class="columns">
-            <div class="column">
-                <div class="columns">
-                    <div class="column">
-                        <img src="images/logo-black.png" alt="CoDesign label">
-                    </div>
-                    <div class="column">
-                        <a href="#"><p>Правила курса</p></a>
-                        <a href="mailto:example@email.com?subject=Support&body=I need help!">
-                        <p style="color: rgb(104, 104, 104); cursor: pointer;">Поддержка</p>
-                        </a>
-                        <p>©2025 CoDesign</p>
-                        <p>Все права защищены </p>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <a href="mailto:example@email.com?subject=Support&body=I need help!">
-                    <p style="color: rgb(104, 104, 104); cursor: pointer;">codesignsupport@gmail.com</p>
-                  </a>
-            </div>
-        </div>
-        
-       
-    </footer>
-
-
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="columns is-vcentered is-justify-content-space-between">
     
+          <div class="column is-flex is-align-items-center">
+            <img src="images/logo-black.png" alt="CoDesign label" style="margin-right: 1rem;">
+            <div class="is-flex is-align-items-start" style="border-left: 1px solid #000000; padding-left: 1rem;">
+              <div>
+                <div class="is-flex is-flex-wrap-gap mb-1">
+                  <a href="#"><p class="mr-4">Правила курса</p></a>
+                  <a href="mailto:example@email.com?subject=Support&body=I need help!"><p>Поддержка</p></a>
+                </div>
+                <div>
+                  <p class="mb-0">©2025 CoDesign Все права защищены</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="column is-narrow has-text-right">
+            <a href="mailto:example@email.com?subject=Support&body=I need help!">
+              <p>codesignsupport@gmail.com</p>
+            </a>
+          </div>
+    
+        </div>
+      </div>
+    </footer>
 
 </body>
 </html>
