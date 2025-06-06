@@ -181,9 +181,7 @@ footer {
         font-size: 1.2rem !important;
     }
 
-    input {
-        height: 80% !important;
-    }
+    
 
     #main-page img {
         width: 18rem;
@@ -242,16 +240,16 @@ footer {
     .is-mobile-centered .columns {
         flex-direction: column;
         align-items: center;
-        text-align: center; /* Центрируем содержимое колонки */
+        text-align: center;
     }
     
     .is-mobile-centered .column {
-        padding: 0 !important; /* Убираем отступы слева (pl-6) */
+        padding: 0 !important;
     }
 
     .is-mobile-centered p {
-        text-align: left; /* Чтобы текст абзацев оставался слева */
-        max-width: 320px; /* Ограничим ширину текста, чтобы не было очень широких строк */
+        text-align: left; 
+        max-width: 320px;
     }
 
     #course-program img {
