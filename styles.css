@@ -1,8 +1,7 @@
 html, body {
     overflow-x: hidden;
     max-width: 100vw;
-  }s
-
+}
 
 body {
     margin: 0;
@@ -177,20 +176,22 @@ footer {
     }
     
     h2 {
-        font-size: 1.2rem !important;
+        font-size: 1.3rem !important;
     }
     
     #main-page h1 {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
 
     #main-page img {
         width: 80%;
         height: auto;
     }
+    
 
     #course-program img {
-        width: 85%;
+        padding: 0;
+        width: 17rem;
         height: auto;
     }
 
@@ -206,6 +207,26 @@ footer {
     .for-whom h2 {
         margin-bottom: 0.5rem;
     }
+    .my-checkbox-label {
+        font-size: 1rem;
+    }
+    
+}
+@media (max-width: 900px) {
+    p.hide-mobile {
+        display: none;
+    }
+    h1 {
+        font-weight: 1.3rem;
+    }
+    .for-whom {
+        
+    }
+     .for-whom p {
+        margin-bottom: 0.4rem;
+        line-height: 1.3;
+        padding-left: 2rem;
+    }
 }
 
 @media (max-width: 768px) { 
@@ -214,11 +235,11 @@ footer {
         width: 6rem;
     }
     body, button, input {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     
     h2 {
-        font-size: 1rem !important;
+        font-size: 1.3rem !important;
     }
 
     #main-page img {
@@ -227,15 +248,15 @@ footer {
         position: center;
     }
     #main-page h1  {
-        font-size: 1.15rem;
+        font-size: 1.4rem;
         margin-bottom: 0rem;
-        word-break: keep-all;
+        word-break: keep-all !important;
         overflow-wrap: break-word;
         hyphens: none;
     }
 
     .main-page p {
-        word-break: keep-all;
+        word-break: keep-all !important;
         overflow-wrap: break-word;
         hyphens: none;
     }
@@ -260,7 +281,7 @@ footer {
     }
     .for-whom {
         margin: 0 auto;
-        padding: 0 30px;
+        padding: 0 20px;
         text-align: center;
     }
     .for-whom h2 {
@@ -269,9 +290,6 @@ footer {
 
     .for-whom p {
         margin-bottom: 0.4rem;
-        word-break: keep-all;
-        overflow-wrap: break-word;
-        hyphens: none;
         line-height: 1.3;
     }
 
@@ -312,10 +330,6 @@ footer {
 
     #reviews .column {
         flex: 1 1 45%;
-    }
-    
-    #reviews p {
-        font-size: 0.75rem;
     }
     
     .footer img {
