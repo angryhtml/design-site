@@ -231,8 +231,46 @@ footer {
 }
 
 @media (min-width: 767px) and (max-width: 930px) {
+
+    #main-page img {
+        width: 23rem !important;
+        height: auto;
+        position: center;
+    }
+     
+    #main-page h1 {
+        margin-bottom: 0;
+    }
+    .main-page .columns {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-page .column.pl-6 {
+        text-align: center;
+        
+    }
+
+    .main-page .start-course {
+        margin: 0 auto;
+    }
+
+    .main-page .column {
+        max-width: 100%; 
+        margin: 0 auto;
+    }
+    
+    .main-page .column.is-5 {
+        flex: none !important;
+        width: 90% !important;
+        max-width: 95% !important;
+    }
+
+    .main-page .pl-6{
+        padding-left: 0rem !important;
+    }
     p.hide-mobile {
-        display: none;
+        
     }
 
     h1 {
